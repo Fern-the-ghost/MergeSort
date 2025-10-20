@@ -5,5 +5,12 @@ using namespace std;
 Struct Node{
   int data;
   Node* next;
-  Node* head;
+  Node* prev;
+
+  Node(int newData)
+  {
+      data = newData;
+      next = nullptr;
+      prev = nullptr;
+  }
 };
