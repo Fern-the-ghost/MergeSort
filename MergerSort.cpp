@@ -7,7 +7,7 @@ Struct Node{
   Node* next;
   Node* prev;
 
-  Node(int newData)
+  struct Node(int newData)
   {
       data = newData;
       next = nullptr;
