@@ -1,1 +1,9 @@
+#include <iostream>
+#include <cmath>
+using namespace std;
 
+Struct Node{
+  int data;
+  Node* next;
+  Node* head;
+};
