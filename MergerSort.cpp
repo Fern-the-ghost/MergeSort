@@ -2,15 +2,26 @@
 #include <cmath>
 using namespace std;
 
-Struct Node{
+struct Node {
   int data;
   Node* next;
   Node* prev;
 
-  struct Node(int newData)
-  {
+Node(int newData) {
       data = newData;
       next = nullptr;
       prev = nullptr;
   }
 };
+
+class LinkList {
+  Node *head;
+
+  LinkList() {
+    head = nullptr;
+  }
+};
+
+int main() {
+  return 0;
+}
