@@ -20,6 +20,10 @@ class LinkList {
   LinkList() {
     head = nullptr;
   }
+
+  //need a split function
+  //need a merge function
+  //need a mergeSort function
 };
 
 int main() {
