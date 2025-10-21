@@ -21,9 +21,15 @@ class LinkList {
     head = nullptr;
   }
 
-  //need a split function
-  //need a merge function
-  //need a mergeSort function
+void split (node* head,node*&a,node*&b) {
+}
+
+node* merge(node* a, node* b) {
+}
+
+node* mergeSort( node* head) {
+}
+
 };
 
 int main() {
