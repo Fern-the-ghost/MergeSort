@@ -31,5 +31,6 @@ Node mergeSort( node* head) {
 };
 
 int main() {
+  Node list = new Node;
   return 0;
 }
