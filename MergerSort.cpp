@@ -24,10 +24,10 @@ class LinkList {
 void split (node* head,node*&a,node*&b) {
 }
 
-node* merge(node* a, node* b) {
+Node merge(node* a, node* b) {
 }
 
-node* mergeSort( node* head) {
+Node mergeSort( node* head) {
 }
 
 };
