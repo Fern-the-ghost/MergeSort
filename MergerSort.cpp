@@ -20,17 +20,29 @@ class LinkList {
   }
 
 void split (node* head,node*&a,node*&b) {
+  //split function I would be using the bubble sort
 }
 
 Node merge(node* a, node* b) {
+  
 }
 
 Node mergeSort( node* head) {
+  
 }
 
 };
 
 int main() {
   Node list = new Node;
+  int newData;
+
+  
+  
+  /* cout << "Enter the amount "
+  while(newData != 0) {
+      
+  }*/
+  
   return 0;
 }
